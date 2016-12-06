@@ -3,7 +3,20 @@
 Steve's Web Application Framework. A simple, functional, extensible web
 programming framework.
 
-# Examples / Usage
+# Quick Start / Examples
+
+Ubuntu system setup:
+
+```
+sudo apt-get install libapache2-mod-wsgi
+ln -s /etc/apache2/mods-available/wsgi-* /etc/apache2/mods-enabled/
+/etc/init.d/apache
+systemctl restart apache2
+```
+
+See examples/apache.conf for an example vhost configuration.
+
+See examples/helloworld.py for a trivial demonstration web app.
 
 # Copyright and License
 
