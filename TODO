@@ -1,0 +1,5 @@
+*original* handler and filter objects are nevermodified
+swaf_* params are only relied upon in the wrapper
+
+---
+
